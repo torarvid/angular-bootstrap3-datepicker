@@ -76,16 +76,16 @@ module.exports = (grunt) ->
           'lib/angular/angular.js',
           'lib/jquery/jquery.js',
           'lib/moment/moment.js',
-          'bower_components/moment/lang/fr-ca.js'
+          'bower_components/moment/locale/fr-ca.js'
         ], dest: 'example/js' ]
       css:
         files: [ flatten:true, expand:true, src: [
           'dist/angular-bootstrap3-datepicker.css',
-          'lib/font-awesome/css/*.css'
+          'lib/font-awesome/*.css'
           'lib/bootstrap/*.css'
         ], dest: 'example/css' ]
       font:
-        files: [ flatten:true, expand:true, src: [ 'lib/font-awesome/fonts/*' ], dest: 'example/fonts/' ]
+        files: [ flatten:true, expand:true, src: [ 'lib/font-awesome/fontawesome-*' ], dest: 'example/fonts/' ]
 
     'http-server':
         dev:
