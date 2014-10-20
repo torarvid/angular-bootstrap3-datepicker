@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "bootstrap": "3.2.0",
-    "bootstrap3-datetimepicker": "3.1.3",
+    "bootstrap3-datetimepicker": "torarvid/bootstrap-datetimepicker#~3.1.5",
     "momentjs": "2.8.3",
     "font-awesome": "4.2.0",
     "angular": "1.3.0",
